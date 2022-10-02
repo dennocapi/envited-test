@@ -5,8 +5,8 @@ import { Button } from '../components/ui';
 const Landing = () => {
     const navigate = useNavigate()
     return (
-        <div className="w-full h-screen flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between">
-            <div className="w-full lg:w-1/2 flex flex-col items-center p-10 lg:p-0  ">
+        <div className="w-full h-screen flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between bg-[##DDDDDD]">
+            <div className="w-full lg:w-1/2 flex flex-col items-center pt-16 lg:p-0">
                 <div className="w-full flex items-center flex-col text-4xl lg:text-6xl lg:items-end lg:pr-16 text-[#240D57] font-bold">
                     <div>
                         Imagine if
@@ -20,7 +20,7 @@ const Landing = () => {
                 </div>
                 <div className="w-full ">
                     <div className="flex lg:flex-col justify-center lg:items-end">
-                        <div className="w-3/4 pr-16 text-center lg:text-right text-medium font-light text-base lg:text-2xl">
+                        <div className="lg:w-3/4 pt-4 lg:pr-16 text-center lg:text-right text-medium font-light text-base lg:text-2xl text-[##4F4F4F]">
                             Easily host and share events with your friends across any social media.
                         </div>
                         <div className="pr-16 hidden lg:flex justify-end mt-8">
@@ -29,9 +29,9 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-3/4 lg:w-1/2 flex flex-col">
+            <div className="w-full lg:w-1/2 flex flex-col">
                 <div className="flex justify-center">
-                    <img src={sc1} className="w-3/4 h-3/4 object-cover" alt="screenshot of event"/>
+                    <img src={sc1} className="w-3/4 object-cover drop-shadow-md rounded-xl" alt="screenshot of event"/>
                 </div>
                 <div className="w-full flex justify-center lg:hidden">
                     <div className="w-1/2">
