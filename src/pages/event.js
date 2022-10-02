@@ -15,7 +15,7 @@ const Event = () => {
                     <div className="text-sm font-light text-[#828282] pt-2">
                         Hosted by Elysia
                     </div>
-                    <div className="w-10/12 ">
+                    <div className="lg:w-10/12 ">
                         <div className="pt-8 flex flex-col gap-y-5">
                             <div className="flex gap-x-6 items-center justify-between">
                                 <div>
